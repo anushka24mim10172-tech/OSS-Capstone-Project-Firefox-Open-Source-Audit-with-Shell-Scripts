@@ -2,8 +2,8 @@
 ## A Capstone Project for OSS NGMC Course
 
 **Course:** Open Source Software (CSE0002)
-**Student Name:** Devansh Bansal
-**Registration Number:** 24BAI10389
+**Student Name:** Anushka Aggarwal
+**Registration Number:** 24MIM10172
 **Software Choice:** Mozilla Firefox (Web Browser)
 **License:** Mozilla Public License 2.0 (MPL 2.0)
 
@@ -184,11 +184,11 @@ Below are the five shell scripts written and tested on an Ubuntu Linux environme
 ```bash
 #!/bin/bash
 # Script 1: System Identity Report
-# Author: Devansh Bansal
+# Author: Anushka Aggarwal
 # Course: Open Source Software (OSS)
 # Description: Gathers and displays system information and OS license
 
-STUDENT_NAME="Devansh Bansal"
+STUDENT_NAME="Anushka A ggarwal"
 SOFTWARE_CHOICE="Mozilla Firefox"
 
 echo "=========================================="
@@ -237,7 +237,7 @@ echo "=========================================="
 ```bash
 #!/bin/bash
 # Script 2: FOSS Package Inspector
-# Author: Devansh Bansal
+# Author: Anushka Aggarwal 
 
 PACKAGE=${1:-"firefox"}  # Default to firefox if no argument provided
 
@@ -296,7 +296,7 @@ echo "=========================================="
 ```bash
 #!/bin/bash
 # Script 3: Disk and Permission Auditor
-# Author: Devansh Bansal
+# Author: Anushka Aggarwal
 
 DIRS=("/etc" "/var/log" "/home" "/usr/bin" "/tmp" "$HOME/.mozilla")
 
@@ -339,7 +339,7 @@ echo "=========================================="
 ```bash
 #!/bin/bash
 # Script 4: Log File Analyzer
-# Author: Devansh Bansal
+# Author: Anushka Aggarwal
 # Usage: ./log_analyzer.sh /var/log/syslog error
 
 LOGFILE=${1:-"/var/log/syslog"}
@@ -385,7 +385,7 @@ echo "=========================================="
 ```bash
 #!/bin/bash
 # Script 5: Open Source Manifesto Generator
-# Author: Devansh Bansal
+# Author: Anushka Aggarwal
 
 echo "=========================================="
 echo "   Open Source Manifesto Generator"
